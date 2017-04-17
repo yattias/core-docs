@@ -170,7 +170,7 @@ const myNewTodo = {
 };
 
 client.writeQuery({
-  query,
+  query: query,
   data: {
     todos: [...data.todos, myNewTodo],
   },
